@@ -1,0 +1,73 @@
+---
+title: "첫 Qmd 문서 만들기"
+format: html
+jupyter: python3
+---
+
+ # 제목 1 (h1)
+
+문서를 작성한 후 아래 단축기를 누르면 *반영된 결과*를 볼 수 ~~있습니다.~~
+
+**preview 단축기 c s k**
+
+ ## 제목 2 (h2)
+
+글 중간에 목고을 삽입하고 싶은 경우
+
+-아이템 1
+-아이템 2
+    -서브아이템1
+    -서브아이템2
+
+순서가 있는 목록을 삽입할 수 있습니다.
+
+1. 파이썬
+    1. 판다스
+    1. 넘파이
+1. R 언어 패키지
+    1. Dplyr
+    1. ggplot
+
+ ### 제목 3 (h3)
+
+ 문의사항은 [슬기로운 통계생활](https://lab.statisticsplaybook.com/portal/course/ls-bigdata-school/lessons/qmd/view)로
+ 문의주세요!
+
+ 이미지를 삽입하는 방법
+
+ ![슬통로고](https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEyMDZfMjI2%2FMDAxNzMzNDUyNTY3MTY3.4uSzEDxrtVyOfEt9vmfTeur86S_5bh9uqp7NaE4Zy1gg.YWuvUz_-KktYYqNQ9JHnUBPTZ1SmWYnTg-fLs_8VG-sg.PNG%2F%25C1%25A6%25B8%25F1%25C0%25BB_%25C0%25D4%25B7%25C2%25C7%25D8%25C1%25D6%25BC%25BC%25BF%25E4_-004.png&type=sc960_832)
+
+ ![컴퓨터에 저장된 그림](jbnu.jfif)
+
+| 이름 | 나이 | 직업 |
+|------|----|-------|
+| 홍길동 | 25 | 데이터 분석가 |
+| 이몽룡 | 30 | 개발자 |
+
+### 수식 입력
+
+문장 안에 들어가는 수식은 달러 기호 한개를 사용
+이렇게 $E=mc^2$ 말이죠
+
+만약 수식만 따로 문단을 만들어서 보여주고 싶은 경우는 달러 기호 2개를 사용합니다.
+
+$$
+E=mc^2
+$$
+
+$$
+\begin{aligned}
+    a &= b + c \\
+      &= d + e + f
+\end{aligned}
+$$
+
+* `\\` 이거는 줄바꿈을 의미한다.
+* `&` 이거는 정렬을 해달라는 의미이다.
+
+``는 코드처리
+
+
+
+
+
